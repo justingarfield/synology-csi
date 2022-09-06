@@ -2,7 +2,7 @@
 
 REGISTRY_NAME=synology
 IMAGE_NAME=synology-csi
-IMAGE_VERSION=v1.0.0
+IMAGE_VERSION=v2.0.0
 IMAGE_TAG=$(REGISTRY_NAME)/$(IMAGE_NAME):$(IMAGE_VERSION)
 
 # For now, only build linux/amd64 platform

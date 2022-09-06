@@ -1,6 +1,6 @@
 #!/bin/bash
 plugin_name="csi.san.synology.com"
-deploy_k8s_version="v1.19"
+deploy_k8s_version="v1.22.3"
 
 SCRIPT_PATH="$(realpath "$0")"
 SOURCE_PATH="$(realpath "$(dirname "${SCRIPT_PATH}")"/../)"
